@@ -4,18 +4,32 @@ An AI-powered full-stack web application that helps developers improve code qual
 
 ---
 
+# Project Status
+
+| Phase | Status |
+|--------|--------|
+| ✅ Day 1 - Project Planning & Setup | Completed |
+| ✅ Day 2 - Authentication & Database | Completed |
+| ⏳ Day 3 - Dashboard & Navigation | In Progress |
+| ⏳ Day 4 - Code Submission | Pending |
+| ⏳ Day 5 - Static Code Analysis | Pending |
+| ⏳ Day 6 - AI Code Review | Pending |
+| ⏳ Day 7 - Testing & Deployment | Pending |
+
+---
+
 # Project Overview
 
 The AI Code Review Assistant enables developers to analyze source code by either:
 
-* Pasting code snippets
-* Uploading source code files
+- Pasting code snippets
+- Uploading source code files
 
 The application performs:
 
-* Static Code Analysis
-* AI-Based Code Review
-* Complexity Analysis
+- Static Code Analysis
+- AI-Based Code Review
+- Complexity Analysis
 
 The generated review reports are stored for future reference and displayed in a clean dashboard.
 
@@ -25,94 +39,93 @@ The generated review reports are stored for future reference and displayed in a 
 
 ## Authentication
 
-* User Registration
-* Login
-* Logout
-* Forgot Password
-* Profile Management
+- User Registration
+- Login
+- Logout
+- Forgot Password
+- Profile Management
 
 ## Code Submission
 
-* Paste Code
-* Upload Source Code Files
+- Paste Code
+- Upload Source Code Files
 
 ## Static Code Analysis
 
-* Syntax Error Detection
-* Unused Variables
-* Formatting Issues
-* Code Style Violations
-* Missing Imports
+- Syntax Error Detection
+- Unused Variables
+- Formatting Issues
+- Code Style Violations
+- Missing Imports
 
 ## AI Review
 
-* Bug Detection
-* Code Smells
-* Performance Suggestions
-* Security Recommendations
-* Best Practices
-* Refactoring Suggestions
-* Code Explanation
-* Documentation Generation
+- Bug Detection
+- Code Smell Detection
+- Performance Suggestions
+- Security Recommendations
+- Best Practices
+- Refactoring Suggestions
+- Code Explanation
+- Documentation Generation
 
 ## Complexity Analysis
 
-* Cyclomatic Complexity
-* Function Complexity
-* File Complexity
-* Lines of Code
-* Number of Functions
-* Number of Classes
+- Cyclomatic Complexity
+- Function Complexity
+- File Complexity
+- Lines of Code
+- Number of Functions
+- Number of Classes
 
 ## Review Dashboard
 
-* Previous Reviews
-* Search Reviews
-* Filter Reviews
-* Delete Reviews
-* Detailed Report
+- Previous Reviews
+- Search Reviews
+- Filter Reviews
+- Delete Reviews
+- Detailed Reports
 
 ---
 
 # Tech Stack
 
-### Frontend
+## Frontend
 
-* Next.js
-* React.js
-* Tailwind CSS
-* shadcn/ui
+- Next.js 16
+- React.js
+- Tailwind CSS
 
-### Backend
+## Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
-### Database
+## Database
 
-* PostgreSQL (Supabase)
+- PostgreSQL (Supabase)
 
-### Authentication
+## Authentication
 
-* Supabase Auth
+- Supabase Authentication
 
-### AI Integration
+## AI
 
-* Google Gemini API
+- Google Gemini API
 
-### Static Analysis
+## Static Analysis
 
-* ESLint
-* Pylint
+- ESLint
+- Pylint
 
-### File Upload
+## File Upload
 
-* Multer
+- Multer
 
-### Deployment
+## Deployment
 
-* Vercel
-* Render
+- Vercel
+- Render / Railway
 
 ---
 
@@ -122,10 +135,15 @@ The generated review reports are stored for future reference and displayed in a 
 AI-Code-Review-Assistant/
 │
 ├── frontend/
+│
 ├── backend/
+│
 ├── docs/
+│
 ├── assets/
+│
 ├── README.md
+│
 └── .gitignore
 ```
 
@@ -133,31 +151,97 @@ AI-Code-Review-Assistant/
 
 # Development Progress
 
-## ✅ Day 1
+## ✅ Day 1 - Project Planning
 
-* Requirement Analysis
-* Finalized Features
-* Selected Tech Stack
-* Planned Project Architecture
-* Designed Folder Structure
-* Git Repository Initialized
-* Project Documentation Started
+### Completed
 
-## ⏳ Day 2
+- Requirement Analysis
+- Finalized Features
+- Selected Tech Stack
+- Planned Application Architecture
+- Designed Folder Structure
+- Initialized Git Repository
+- Created Project Documentation
 
+---
 
+## ✅ Day 2 - Authentication & Database
+
+### Completed
+
+- Created Supabase Project
+- Configured Environment Variables
+- Integrated Supabase with Next.js
+- Created Reusable Supabase Client
+- Created Authentication Architecture
+- Created Authentication Route Structure
+- Implemented User Registration
+- Implemented User Login
+- Created Profile Database Table
+- Implemented Authentication Service Layer
+- Organized Route Groups for Public and Protected Pages
+
+### Authentication Testing
+
+- Successfully connected Frontend with Supabase
+- Successfully registered test users
+- Successfully verified user creation in Supabase Authentication
+- Successfully tested Login API
+
+### Notes
+
+- Authentication module has been successfully implemented.
+- Email verification testing was temporarily affected by Supabase free-tier email rate limits.
+- Route protection and session management will be completed during Day 3.
+
+---
+
+# Upcoming Development
+
+## Day 3
+
+- Dashboard Layout
+- Sidebar
+- Navbar
+- Protected Routes
+- Session Handling
+
+## Day 4
+
+- Code Upload
+- Code Snippet Submission
+- File Storage
+
+## Day 5
+
+- Static Code Analysis
+- ESLint Integration
+- Pylint Integration
+
+## Day 6
+
+- Gemini AI Integration
+- AI Code Review
+- Documentation Generation
+
+## Day 7
+
+- Testing
+- Deployment
+- Performance Optimization
+- Final Documentation
 
 ---
 
 # Future Improvements
 
-* Multi-language Support
-* Code Quality Score
-* Dark Mode
-* Team Workspaces
-* Docker Support
-* CI/CD Pipeline
-* Admin Dashboard
+- Multi-language Support
+- Dark Mode
+- Code Quality Score
+- Docker Support
+- Team Workspaces
+- CI/CD Pipeline
+- Admin Dashboard
 
 ---
 

@@ -10,7 +10,7 @@ An AI-powered full-stack web application that helps developers improve code qual
 |--------|--------|
 | ✅ Day 1 - Project Planning & Setup | Completed |
 | ✅ Day 2 - Authentication & Database | Completed |
-| ⏳ Day 3 - Dashboard & Navigation | In Progress |
+| ✅ Day 3 - Dashboard & Navigation | Completed |
 | ⏳ Day 4 - Code Submission | Pending |
 | ⏳ Day 5 - Static Code Analysis | Pending |
 | ⏳ Day 6 - AI Code Review | Pending |
@@ -95,6 +95,7 @@ The generated review reports are stored for future reference and displayed in a 
 - Next.js 16
 - React.js
 - Tailwind CSS
+- shadcn/ui
 
 ## Backend
 
@@ -109,11 +110,11 @@ The generated review reports are stored for future reference and displayed in a 
 
 - Supabase Authentication
 
-## AI
+## AI Integration
 
 - Google Gemini API
 
-## Static Analysis
+## Static Code Analysis
 
 - ESLint
 - Pylint
@@ -151,17 +152,17 @@ AI-Code-Review-Assistant/
 
 # Development Progress
 
-## ✅ Day 1 - Project Planning
+## ✅ Day 1 - Project Planning & Setup
 
 ### Completed
 
 - Requirement Analysis
-- Finalized Features
+- Finalized Project Features
 - Selected Tech Stack
 - Planned Application Architecture
 - Designed Folder Structure
 - Initialized Git Repository
-- Created Project Documentation
+- Created Initial Documentation
 
 ---
 
@@ -173,62 +174,90 @@ AI-Code-Review-Assistant/
 - Configured Environment Variables
 - Integrated Supabase with Next.js
 - Created Reusable Supabase Client
-- Created Authentication Architecture
+- Built Authentication Architecture
 - Created Authentication Route Structure
 - Implemented User Registration
 - Implemented User Login
 - Created Profile Database Table
 - Implemented Authentication Service Layer
-- Organized Route Groups for Public and Protected Pages
+- Organized Public & Protected Route Groups
 
 ### Authentication Testing
 
 - Successfully connected Frontend with Supabase
-- Successfully registered test users
-- Successfully verified user creation in Supabase Authentication
+- Successfully registered users
+- Successfully verified user creation
 - Successfully tested Login API
 
 ### Notes
 
-- Authentication module has been successfully implemented.
-- Email verification testing was temporarily affected by Supabase free-tier email rate limits.
-- Route protection and session management will be completed during Day 3.
+- Authentication module successfully integrated.
+- Email verification testing was temporarily limited due to Supabase free-tier email rate limits.
+
+---
+
+## ✅ Day 3 - Dashboard & Navigation
+
+### Completed
+
+- Built Dashboard Layout
+- Created Reusable Sidebar
+- Created Reusable Navbar
+- Integrated shadcn/ui
+- Built Reusable Statistics Cards
+- Built Quick Actions Component
+- Built Recent Reviews Component
+- Organized Dashboard into Reusable Components
+- Created Middleware Foundation for Protected Routes
+
+### UI Components
+
+- Sidebar
+- Navbar
+- StatsCard
+- QuickActions
+- RecentReviews
+
+### Notes
+
+- Dashboard architecture is fully component-based.
+- UI built using reusable React components.
+- Middleware foundation prepared for protected routes.
+- Session validation and logout will be integrated in the next development phase.
 
 ---
 
 # Upcoming Development
 
-## Day 3
+## ⏳ Day 4 - Code Submission
 
-- Dashboard Layout
-- Sidebar
-- Navbar
-- Protected Routes
-- Session Handling
+- Paste Code
+- Upload Source Code Files
+- File Preview
+- Store Submitted Code
+- Review Submission Workflow
 
-## Day 4
+## ⏳ Day 5 - Static Code Analysis
 
-- Code Upload
-- Code Snippet Submission
-- File Storage
-
-## Day 5
-
-- Static Code Analysis
 - ESLint Integration
 - Pylint Integration
+- Complexity Analysis
+- Code Quality Metrics
 
-## Day 6
+## ⏳ Day 6 - AI Code Review
 
-- Gemini AI Integration
+- Google Gemini Integration
 - AI Code Review
+- Bug Detection
+- Optimization Suggestions
 - Documentation Generation
 
-## Day 7
+## ⏳ Day 7 - Testing & Deployment
 
-- Testing
-- Deployment
+- End-to-End Testing
+- Error Handling
 - Performance Optimization
+- Deployment
 - Final Documentation
 
 ---
@@ -236,6 +265,7 @@ AI-Code-Review-Assistant/
 # Future Improvements
 
 - Multi-language Support
+- Interactive Analytics Dashboard
 - Dark Mode
 - Code Quality Score
 - Docker Support
@@ -245,10 +275,22 @@ AI-Code-Review-Assistant/
 
 ---
 
+# Screenshots
+
+> Screenshots will be added as development progresses.
+
+- Authentication
+- Dashboard
+- Code Submission
+- AI Review
+- Review History
+
+---
+
 # Author
 
 **Akshat Gupta**
 
 B.Tech Computer Science (Data Science)
 
-Internship Project
+Internship Assessment Project
